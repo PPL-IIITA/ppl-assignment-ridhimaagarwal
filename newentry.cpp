@@ -12,12 +12,12 @@ int main() {									//!< Main function to generate randomized input
 	//freopen("input2.txt","w",stdout);
 	int i,j;
 	int var1;
-	char bname[15];
-	char gname[10];
+	char bname;
+	char gname;
 	cout<< "15" << endl;
  	for(i=0;i<15;i++) {							
-			bname[i]=(rand()%26)+65;			//!< Generate name of the boy
-			cout<< bname[i]<<" "; 
+			bname=(rand()%26)+65;			//!< Generate name of the boy
+			cout<< bname<<" "; 
 			var1=rand()%10;						//!< Generate Attraction Rate of the boy
 			var1++; 
 			cout<< var1 <<" ";
@@ -37,8 +37,8 @@ int main() {									//!< Main function to generate randomized input
 	} 
 	cout<<"10" <<endl;
 	for(i=0;i<10;i++) {
-			gname[i]=(rand()%26)+65;			//!< Name of the girl 
-			cout<< gname[i]<<" "; 
+			gname=(rand()%26)+65;			//!< Name of the girl 
+			cout<< gname<<" "; 
 			var1=rand()%10;						//!< Attraction Rate of the girl
 			var1++; 
 			cout<< var1 <<" ";
