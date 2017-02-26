@@ -21,14 +21,14 @@ int main()								 //!< Main function to initialize values
 	for(i=0;i<numboys;i++)
 	{
 		
-		cin>> b[i].name >> b[i].attr_rate >> b[i].budget >> b[i].intlevel >> b[i].minattr;
+		cin>> b[i].name >> b[i].attr_rate >> b[i].budget >> b[i].intlevel >> b[i].minattr >> b[i].type;
 		//cout<< b[i].name << " " << b[i].attr_rate << " " << b[i].budget << " " << b[i].intlevel << " " << b[i].minattr << endl;
 	}
 	cin>>numgirls;
 	//cout << numgirls << endl;
 	for(i=0;i<numgirls;i++)
 	{
-		cin>> g[i].name >> g[i].attr_rate >> g[i].maint >> g[i].intlevel >> g[i].choice;
+		cin>> g[i].name >> g[i].attr_rate >> g[i].maint >> g[i].intlevel >> g[i].choice >> g[i].type;
 		//cout<< g[i].name << " " << g[i].attr_rate << " " << g[i].maint << " " << g[i].intlevel << " " << g[i].choice << endl;
 	}
 	
