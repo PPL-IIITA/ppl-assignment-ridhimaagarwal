@@ -19,6 +19,6 @@ g++ newentry.cpp q1(2).cpp
 
 ##Output
 
-*To View generated people: Open input.txt
-*To View Couples: Open output.txt
-*To View Documentation: Go to ppl_assignment1/html/index.html
+* To View generated people: Open input.txt
+* To View Couples: Open output.txt
+* To View Documentation: Go to ppl_assignment1/html/index.html
